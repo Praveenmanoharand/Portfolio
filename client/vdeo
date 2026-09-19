@@ -1,0 +1,137 @@
+{
+    "project": {
+        "type": "cinematic_3d_portfolio_visual",
+        "aspect_ratio": "9:16",
+        "orientation": "vertical",
+        "style": "premium cinematic 3D",
+        "mood": "confident, creative, futuristic, professional"
+    },
+    "subject": {
+        "description": "A young male software developer standing confidently in a stylized futuristic technology environment",
+        "appearance": {
+            "hair": "dark silkey hair",
+            "expression": "calm, confident, slightly serious",
+            "pose": "standing with a relaxed confident posture, body slightly angled toward camera",
+            "clothing": {
+                "outerwear": "dark charcoal blazer",
+                "shirt": "muted dusty-pink button-up shirt",
+                "overall_style": "modern professional developer"
+            }
+        }
+    },
+    "environment": {
+        "background": {
+            "description": "large abstract technology-themed typography and geometric graphic elements",
+            "color_palette": [
+                "deep burgundy",
+                "dark red",
+                "warm brown",
+                "soft pink",
+                "cream"
+            ],
+            "details": [
+                "large oversized abstract typography",
+                "subtle technical grid lines",
+                "thin geometric line patterns",
+                "soft glowing highlights",
+                "depth layers"
+            ]
+        }
+    },
+    "floating_elements": [
+        {
+            "object": "HTML5 logo",
+            "style": "3D rounded square technology icon",
+            "material": "dark glossy plastic",
+            "position": "upper left",
+            "lighting": "soft blue glow"
+        },
+        {
+            "object": "CSS logo",
+            "style": "3D rounded square technology icon",
+            "material": "dark glossy plastic",
+            "position": "left side",
+            "lighting": "blue glow"
+        },
+        {
+            "object": "JavaScript logo",
+            "style": "3D rounded square technology icon",
+            "material": "dark glossy plastic",
+            "position": "lower left",
+            "lighting": "subtle warm yellow glow"
+        },
+        {
+            "object": "React logo",
+            "style": "3D rounded technology icon",
+            "material": "glossy red and white",
+            "position": "lower center",
+            "lighting": "soft white glow"
+        },
+        {
+            "object": "AI text icon",
+            "style": "small 3D rounded square",
+            "material": "dark glossy plastic",
+            "position": "bottom center",
+            "lighting": "golden yellow glow"
+        }
+    ],
+    "lighting": {
+        "key_light": "large soft warm light from upper right",
+        "rim_light": "subtle reddish-orange rim light around subject",
+        "ambient": "soft burgundy ambient illumination",
+        "highlights": "controlled glossy highlights on floating icons",
+        "contrast": "medium-high cinematic contrast"
+    },
+    "camera": {
+        "shot": "medium full-body portrait",
+        "angle": "slightly low angle",
+        "lens": "50mm cinematic lens",
+        "depth_of_field": "shallow",
+        "focus": "sharp focus on developer",
+        "background_focus": "softly blurred but recognizable",
+        "composition": "subject centered slightly toward the lower-right with floating technology icons surrounding him"
+    },
+    "visual_effects": {
+        "particles": "subtle floating dust and tiny glowing particles",
+        "motion_blur": "very subtle",
+        "bloom": "soft cinematic bloom",
+        "lens_effects": "subtle anamorphic highlights",
+        "glow": "controlled neon-style glow around technology elements"
+    },
+    "rendering": {
+        "quality": "ultra detailed",
+        "materials": "realistic 3D materials",
+        "skin": "natural realistic skin texture",
+        "fabric": "high-detail blazer and shirt fabric",
+        "render_style": "high-end cinematic 3D animation",
+        "lighting_quality": "photorealistic cinematic lighting"
+    },
+    "composition": {
+        "foreground": "floating 3D technology icons",
+        "midground": "developer",
+        "background": "large abstract technology typography",
+        "visual_hierarchy": [
+            "developer face",
+            "developer clothing",
+            "technology icons",
+            "background typography"
+        ],
+        "negative_space": "maintain some clean space around the subject for portfolio website text"
+    },
+    "negative_prompt": [
+        "low quality",
+        "flat 2D illustration",
+        "photorealistic photograph",
+        "excessive cyberpunk",
+        "neon overload",
+        "distorted face",
+        "extra fingers",
+        "deformed hands",
+        "duplicate objects",
+        "messy background",
+        "oversaturated colors",
+        "watermark",
+        "random unreadable text",
+        "logo distortion"
+    ]
+}
