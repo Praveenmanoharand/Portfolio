@@ -1182,6 +1182,18 @@ img {
 .hero-copy {
   width: min(100%, 900px);
   margin-inline: 0;
+  animation: heroCopyFade 1s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes heroCopyFade {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 /* Kicker: three-part annotation — tag / role / location */
@@ -5979,6 +5991,28 @@ img {
     display: inline-flex;
   }
 
+  .nav-links.is-open {
+    position: absolute;
+    top: var(--nav-h);
+    left: 0;
+    right: 0;
+    display: grid;
+    gap: 0;
+    padding: 8px 16px 18px;
+    border-bottom: 1px solid rgba(199, 243, 107, 0.18);
+    background: rgba(12, 12, 11, 0.98);
+    backdrop-filter: blur(18px);
+  }
+
+  .nav-links.is-open .nav-link {
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(244, 241, 233, 0.1);
+  }
+
+  .nav-links.is-open .nav-link:last-child {
+    border-bottom: 0;
+  }
+
   /* ── Hero section responsive fixes for Tablet & Mobile ── */
   .hero-stage {
     height: auto;
@@ -6155,28 +6189,6 @@ img {
 }
 
 @media (max-width: 620px) {
-  .nav-links.is-open {
-    position: absolute;
-    top: var(--nav-h);
-    left: 0;
-    right: 0;
-    display: grid;
-    gap: 0;
-    padding: 8px 16px 18px;
-    border-bottom: 1px solid rgba(199, 243, 107, 0.18);
-    background: rgba(12, 12, 11, 0.98);
-    backdrop-filter: blur(18px);
-  }
-
-  .nav-links.is-open .nav-link {
-    padding: 16px 0;
-    border-bottom: 1px solid rgba(244, 241, 233, 0.1);
-  }
-
-  .nav-links.is-open .nav-link:last-child {
-    border-bottom: 0;
-  }
-
   .nav-meta {
     display: none;
   }
@@ -6199,6 +6211,7 @@ img {
     height: auto;
     min-height: max(500px, 100svh);
     padding-bottom: 48px;
+    background-image: url("/manus-storage/mobile.png");
     background-position: center top;
     background-size: cover;
   }

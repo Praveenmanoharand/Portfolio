@@ -364,12 +364,7 @@ function HeroStage({ onProgress }: { onProgress?: (p: number) => void }) {
         <div className="hero-rule-grid" aria-hidden="true" />
 
         <div className="hero-body" ref={bodyRef}>
-          <motion.div
-            className="max-frame hero-copy"
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.0, ease: [0.22, 1, 0.36, 1] }}
-          >
+          <div className="max-frame hero-copy">
             <p className="hero-kicker eyebrow">
               <span className="hero-kicker-tag">P/</span>
               <span className="hero-kicker-line">Praveen — full-stack developer</span>
@@ -386,14 +381,17 @@ function HeroStage({ onProgress }: { onProgress?: (p: number) => void }) {
                 <span className="hero-accent">{splitChars("ships", 2)}</span>
               </span>
               <span className="char-mask" style={cssVars({ "--cs": 3 })}>
-                {splitChars("full-stack products.", 3)}
+                {splitChars("full-stack", 3)}
+              </span>
+              <span className="char-mask" style={cssVars({ "--cs": 4 })}>
+                {splitChars("products.", 4)}
               </span>
             </h1>
             <p className="hero-note">
               Architecture, interface, and the services behind it — built so a
               product still makes sense at version ten.
             </p>
-          </motion.div>
+          </div>
 
           <div className="hero-actions" data-magnetic-row>
             <a className="signal-button" href="#contact" data-magnetic>
